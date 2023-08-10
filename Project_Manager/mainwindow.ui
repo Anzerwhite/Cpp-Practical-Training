@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1075</width>
+    <height>729</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame_3">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QToolButton" name="toolButton_SearchByAccount">
+         <property name="text">
+          <string>按账号查找</string>
+         </property>
+         <property name="icon">
+          <iconset resource="Icon.qrc">
+           <normaloff>:/Icons/Search.png</normaloff>:/Icons/Search.png</iconset>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonTextBesideIcon</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEdit_SearchByAccount"/>
+       </item>
+       <item row="0" column="2">
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QTableView" name="tableView">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" rowspan="2">
+     <widget class="QFrame" name="frame_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="1" colspan="3">
+        <widget class="QLabel" name="label_Photo">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="4">
+        <widget class="QTextEdit" name="textEdit_Signature">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="4">
+        <widget class="QFrame" name="frame">
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_Gender">
+            <property name="text">
+             <string>性别:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_Password">
+            <property name="text">
+             <string>密码:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_Account">
+            <property name="text">
+             <string>账号:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1" colspan="2">
+           <widget class="QLineEdit" name="lineEdit_Account"/>
+          </item>
+          <item row="3" column="1" colspan="2">
+           <widget class="QLineEdit" name="lineEdit_Name"/>
+          </item>
+          <item row="0" column="2">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_ID">
+            <property name="text">
+             <string>ID:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QSpinBox" name="spinBox_ID">
+            <property name="maximum">
+             <number>99</number>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_Name">
+            <property name="text">
+             <string>昵称:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="4" column="1">
+           <widget class="QComboBox" name="comboBox_Gender">
+            <item>
+             <property name="text">
+              <string>男</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>女</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>其他</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="2" column="1" colspan="2">
+           <widget class="QLineEdit" name="lineEdit_Password">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_Signature">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>个性签名</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::TopToolBarArea</set>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionOpenDatabase">
+   <property name="icon">
+    <iconset>
+     <normalon>:/Icons/Open.png</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>打开数据库</string>
+   </property>
+  </action>
+  <action name="actionToFirstRecord">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/Icons/First.png</normaloff>:/Icons/First.png</iconset>
+   </property>
+   <property name="text">
+    <string>首行</string>
+   </property>
+  </action>
+  <action name="actionToLastRecord">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/Icons/Last.png</normaloff>:/Icons/Last.png</iconset>
+   </property>
+   <property name="text">
+    <string>尾行</string>
+   </property>
+  </action>
+  <action name="actionToNextRecord">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/Icons/Next.png</normaloff>:/Icons/Next.png</iconset>
+   </property>
+   <property name="text">
+    <string>下一行</string>
+   </property>
+  </action>
+  <action name="actionToPreviousRecord">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/Icons/Previous.png</normaloff>:/Icons/Previous.png</iconset>
+   </property>
+   <property name="text">
+    <string>上一行</string>
+   </property>
+  </action>
+  <action name="actionEditRecord">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/Icons/Edit.png</normaloff>:/Icons/Edit.png</iconset>
+   </property>
+   <property name="text">
+    <string>编辑</string>
+   </property>
+  </action>
+  <action name="actionInsertRecord">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/Icons/Add.png</normaloff>:/Icons/Add.png</iconset>
+   </property>
+   <property name="text">
+    <string>插入</string>
+   </property>
+  </action>
+  <action name="actionDeleteRecord">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/Icons/Delete.png</normaloff>:/Icons/Delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </action>
+  <action name="actionSortByAsc">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/Icons/Asc.png</normaloff>:/Icons/Asc.png</iconset>
+   </property>
+   <property name="text">
+    <string>升序</string>
+   </property>
+  </action>
+  <action name="actionSortByDesc">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/Icons/Desc.png</normaloff>:/Icons/Desc.png</iconset>
+   </property>
+   <property name="text">
+    <string>降序</string>
+   </property>
+  </action>
+  <action name="actionSearchByAccount">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/Icons/Search.png</normaloff>:/Icons/Search.png</iconset>
+   </property>
+   <property name="text">
+    <string>查找用户名</string>
+   </property>
+  </action>
+  <action name="actionSelectAll">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/Icons/Search.png</normaloff>:/Icons/Search.png</iconset>
+   </property>
+   <property name="text">
+    <string>SelectAll</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icons/Add.png</file>
+        <file>Icons/Asc.png</file>
+        <file>Icons/Cancel.png</file>
+        <file>Icons/Check.png</file>
+        <file>Icons/Delete.png</file>
+        <file>Icons/Desc.png</file>
+        <file>Icons/Edit.png</file>
+        <file>Icons/First.png</file>
+        <file>Icons/Last.png</file>
+        <file>Icons/Next.png</file>
+        <file>Icons/Open.png</file>
+        <file>Icons/Previous.png</file>
+        <file>Icons/Search.png</file>
+        <file>Icons/Chat.png</file>
+        <file>Icons/History.png</file>
+        <file>Icons/MyInfo.png</file>
+        <file>Icons/Place.png</file>
+        <file>Icons/Basketball.png</file>
+        <file>Icons/Canteen.png</file>
+        <file>Icons/Dorm.png</file>
+        <file>Icons/Library.png</file>
+        <file>Icons/Chicken.jpg</file>
+    </qresource>
+</RCC>
